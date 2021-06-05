@@ -50,7 +50,6 @@ ul{
   
   
 }
-}
 
 #formsurv{
   display: flex;
@@ -101,15 +100,6 @@ padding-bottom: 30px;
   border-width: 1px;
 
 }
-
-
- 
-
-input type = "text"{
-  margin-top: 5px;
-  width: 100%;
-}
-
 button{ 
   font-family: Raleway;
   font-weight: 500;
@@ -127,175 +117,12 @@ button{
   
   
 }
-
-.red{
-  font-size: 60px;
-  font-weight: 400;
-  background-color: red;
-  border-radius: 40px;
-  margin: auto;
-  padding: auto;
-  text-align: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  height: 100%;
-  width: 60%;
-  
+img{
+	width:30%;
 }
-
-.red:hover{
-  background-color: red;
-  animation-name: redhover;
-  animation-duration: 10s;
-  animation-iteration-count:infinite;
+#images{
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
-
-.green{
-  font-size: 60px;
-  font-weight: 400;
-  background-color: green;
-  border-radius: 40px;
-  margin: auto;
-  padding: auto;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  text-align: center;
-  margin-top: 30px;
-  
-  margin-bottom: 10px;
-  height: 100%;
-  width: 60%;
-  
-}
-
-.green:hover{
-  background-color:green ;
-  animation-name: greenhover;
-  animation-duration: 10s;
-  animation-iteration-count:infinite;
-}
-
-.blue{
-  font-size: 60px;
-  font-weight: 400;
-  background-color: #537EFF;
-  border-radius: 40px;
-  padding: auto;
-  margin: auto;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  margin-top: 30px;
-  margin-bottom: 10px;
-  height: 100%;
-  width: 60%;
-  text-align: center;
-  
-  
-}
-
-.blue:hover{
-  background-color: blue;
-  animation-name: bluehover;
-  animation-duration: 10s;
-  animation-iteration-count:infinite;
-}
-
-.white{
-  font-size: 60px;
-  font-weight: 400;
-  background-color: white;
-  border-radius: 40px;
-  padding: auto;
-  margin: auto;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  margin-top: 30px;
-  margin-bottom: 10px;
-  height: 100%;
-  width: 60%;
-  text-align: center;
-  
-  
-}
-
-.white:hover{
-  background-color: gray;
-  animation-name: whitehover;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes redhover{
-  25%{
-    background-color: #F22A17;
-  }
-  
-  50%{
-    background-color: #CB2313;
-  }
-  
-  75%{
-    background-color: #651109;  
-  }
-  
-  100%{
-    background-color: #A51C0F;
-  }
-    
-}
-
-@keyframes greenhover{
-  25%{
-    background-color: #1DF252
-  }
-  
-  50%{
-    background-color: #84F280;
-  }
-  75%{
-    background-color: #2CAF1E;
-  }
-  100%{
-    background-color: #50D911;
-  }
-}
-
-@keyframes bluehover{
-  25%{
-    background-color: #537EFF;
-  }
-  
-  50%{
-    background-color: #032380;
-  }
-  
-  75%{
-    background-color: #293F80;
-  }
-  
-  100%{
-    background-color: #0537CC;
-  }
-}
-
-@keyframes whitehover{  
-  50%{
-    background-color: red;
-  }
-  
-  75%{
-    background-color: green;
-  }
-  
-  100%{
-    background-color: blue;
-  }
-}
-  
-  
-
-
-
-
