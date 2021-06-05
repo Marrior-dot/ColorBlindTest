@@ -1,5 +1,7 @@
+<!DOCTYPE html>
+<html lang="en">
 <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" type="text/css">
-
+<link rel="stylesheet" href="style.css">
  <script src="https://kit.fontawesome.com/68c6bccf2e.js" crossorigin="anonymous"></script>
 
 <head>
@@ -12,7 +14,7 @@
     <h1>Teste para daltonismo</h1>
     <fieldset class = "field">
       <legend> <h2>Descrição</h2> </legend>
-    <p>Os princípos utilizados para a realização dos testes a seguir foram baseados nos estudos das seguintes <a href="#links"> Referências</a>.</p>
+    <p>Os princípos utilizados para a realização dos testes a seguir foram baseados nos estudos das seguintes <a href="#links"> Referências</a>.Portanto, é recomendado que se consulte um profissional da saúde para resultados precisos e oficiais</p>
         </fieldset>
     <fieldset class = "field">
       <legend> <h2>Instruções</h2> </legend>
@@ -20,54 +22,29 @@
         </fieldset>
   </header>
   <main>
-    <article>
-      <div class = "red">Background vermelho</div>
-      <div class = "green">Background verde</div>
-      <div class = "blue">Background azul</div>
-      <div class = "white">Quais cores você vê?</div>
+	<button id ="testStart"> Comerçar teste </button>
+	<br>
+	<div id="images" hidden>
+	<h3 class="imageTitle">Primeira Imagem</h3>
+	<img src='https://www.imagemhost.com.br/images/2021/06/05/pngegg.png' alt='primeira imagem'>
+	<h3 class ="imageTitle">Segunda Imagem</h3>
+	<img src="https://www.imagemhost.com.br/images/2021/06/05/kisspng-ishihara-test-ishihara-s-tests-for-colour-deficien-5aedf5ffd88f53.8353121215255444478871-1.png" alt="kisspng-ishihara-test-ishihara-s-tests-for-colour-deficien-5aedf5ffd88f53.8353121215255444478871-1.png" border="0" />
+	
+	</div>
+	<h2>Resultados</h2>
+	<article>
     </article>
 <br>
-    <article>
-
-      <section> 
-        <fieldset class = "field"><legend style = "font-size: 30px"> <strong>Feedback da sua experiência <small>(opcional)</small></strong> </legend>
-        <br>
-        <form id = "formsurv">
-
-          <label for="redback"> <strong> Background vermelho: </strong>
-            <br>
-            <input id="redback" type="text" placeholder="Descreva aqui o que você viu" </labeL>
-             
-            <br>
-            <label for="greenback"><strong> Background verde:</strong> 
-              <br>
-              <input id="greenback" type="text" placeholder="Descreva aqui o que você viu" </labeL>
-                         
-              <br>
-              <label for="blueback"> <strong>Background azul:</strong>
-                <br>
-                <input id="blueback" type="text" placeholder="Descreva aqui o que você viu" </labeL>
-                            
-                <br>
-                <label for="whiteback"> <strong>Background "Quais cores você vê":</strong>
-                  <br>
-                  <input id="whiteback" type="text" placeholder="Descreva aqui o que você viu" </labeL><br>
-                              <button type = "submit"> Enviar</button>
-        </form>
-      </section>
-              </fieldset>
-    </article>
   </main>
   <ul>
     <fieldset id="links">
       <legend><h3 >Links utilizados</h3></legend>
-    <li><a href="https://super.abril.com.br/mundo-estranho/como-enxergam-os-daltonicos/" target = "_blank">Matéria da editora Abril</a></li>
-    <li><a href="https://institutoassadrayes.com.br/noticia/noticias/teste-de-cores-de-ishihara-descubra-se-voce-e-daltonico" target = "_blank">Instituto Assadrayes</a></li>
-    <li><a href="http://saobernardo.com/blog/daltonismo-enxergando-com-outras-cores/#:~:text=Nesse%20caso%2C%20o%20indiv%C3%ADduo%20%C3%A9,enxergam%20objetos%20na%20cor%20laranja." target = "_blank">Blog São Bernardo</a></li>
-    <li><a href="https://pt.wikipedia.org/wiki/Daltonismo" target = "_blank">Página da Wikipédia</a></li>
+    <li><a href="https://fatecgarca.edu.br/ojs/index.php/efatec/article/view/61/58" target = "_blank">Aplicação da Interação Humano Computador no Desenvolvimento de Interfaces Gráficas Destinadas a Daltônicos</a></li>
+    <li><a href="https://periodicos.fclar.unesp.br/rpge/article/view/10021/6604" target = "_blank">Inclusão Pdagógico Cultural-Daltonismo e o Ensino de Cores na Educação Infantil</a></li>
+    <li><a href="https://www.scielo.br/j/physis/a/5hWpcHND39fq6BWtB3ZTsbM/?lang=pt" target = "_blank">Os "daltônicos" e suas dificuldades: condição negligenciada no Brasil? </a></li>
   </ul>
     </fieldset>
-
+<script src ="app.js" ></script>
 </body>
 <footer style = "text-align: center">
   &copy;<time datetime = "">criado no dia 9<sup></sup> de Janeiro de 2021</time>, esse website foi criado por Mário Roberto, Brasileiro aspirante a desenvolvedor front-end
@@ -78,3 +55,4 @@
           <div style = "display: flex ; justify-content: center"><div><i class="fab fa-instagram"></i></div><a href = "https://www.instagram.com/mari0_2000/" target = "_blank">Instagram</a></div>
         </section>
                  
+	</html>
